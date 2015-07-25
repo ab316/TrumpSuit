@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXFramework">
+      <UniqueIdentifier>{c010983c-163e-4d10-a298-2a46f4c89dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{68cb9c26-95f1-40b2-ba6d-32f5de9a01ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HumanPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NormalAIPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StartDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CardMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\GameGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderableCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Round.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TrumpGameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TrumpAIPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CSerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\HumanPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NormalAIPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\StartDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CardMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RenderableCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Round.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TrumpGameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TrumpAIPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DX3DDriver.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DX3DDriverInline.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXAllocator.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXBaseApplication.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXBitmapFontFile.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXFileSystem.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXGraphicsDriver.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXHardwareBuffer.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXHardwareBufferManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXHeapAllocator.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXInputLayout.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXInputLayoutManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXKeyboardHandler.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXMemoryManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXMouseHandler.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXPoolAllocator.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXProcess.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXProcessManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXRefCounter.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXResource.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXResourceManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXResourceManagersInclude.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXResourcesInclude.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXShader.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXShaderManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXSprite.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXStackAllocator.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXStdafx.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXTextRenderer.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXTexture.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXTextureManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXTimer.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXTrackingPointer.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIButton.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUICheckBox.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIComboBox.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIEditBox.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIElement.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIManager.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIRadioButton.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIScrollBar.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUIStatic.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DXFramework\DXUnknown.h">
+      <Filter>DXFramework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\CardPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CardVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GUI.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\ShaderCommon.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

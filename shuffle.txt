@@ -1,0 +1,7 @@
+void shuffleCards(int * cardArray) {
+int random;
+for(int i = 31; i >= 0; i--) {
+rand = getRandomIntegerInRange(0, i);
+swapCards(cardArray[i], cardArray[rand]);
+}
+}

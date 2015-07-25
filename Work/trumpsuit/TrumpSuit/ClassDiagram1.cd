@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CCard" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAQAAAAAAAEABgAAQEAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Include\Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCardMesh" Collapsed="true">
+    <Position X="55" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAREABABAAAAAAAAAAABSBFAESQQFAEEAAAAAA=</HashCode>
+      <FileName>Include\CardMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Console" Collapsed="true">
+    <Position X="63.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAIAgAEAAAAQAAAAACAAAAAAA=</HashCode>
+      <FileName>Include\Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderableCard" Collapsed="true">
+    <Position X="55" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAAACKCGAAAAxAAABAQAAAAgQA=</HashCode>
+      <FileName>Include\RenderableCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerializable" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAABACAAAAAAAAEAAAA=</HashCode>
+      <FileName>Include\CSerializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeck" Collapsed="true">
+    <Position X="1" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAAACEAA=</HashCode>
+      <FileName>Include\Deck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDialog" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAIBQAAAAAAAAAAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Dialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameApplication" Collapsed="true">
+    <Position X="60.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAgQEAFBUAGQAAAAwQgFRAAIAAAAAAIAoIAEAM=</HashCode>
+      <FileName>Include\GameApplication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameGraphics" Collapsed="true">
+    <Position X="62" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAACAAAAAQACQAAEAAAAADBBAEwAAACAIQAAAAA=</HashCode>
+      <FileName>Include\GameGraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHand" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAQAwAoAAAAAggQAHAACJAAIAAAAFAAAA=</HashCode>
+      <FileName>Include\Hand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameManager" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwABAQkAACAABYBEAAgQgABiAcwkCABpBjEEQAAA=</HashCode>
+      <FileName>Include\GameManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pDeck" />
+      <Field Name="m_pSpareHand" />
+      <Field Name="m_pRoundHand" />
+      <Field Name="m_pCurrentRound" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CHumanPlayer" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\HumanPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNormalAIPlayer" Collapsed="true">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\NormalAIPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAQAAgEAAAgIAACAAAkAIAgIAAhAAigQAEARAI=</HashCode>
+      <FileName>Include\Player.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pHand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CRound" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAIAAAQEAAAAQgAAAgAAAIAAAAQEIBAAEAAAA=</HashCode>
+      <FileName>Include\Round.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStartDialog" Collapsed="true">
+    <Position X="8.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQGADAAAAAAAAACBQAAAgAAAAAQAAAAAAAACwIIABMA=</HashCode>
+      <FileName>Include\StartDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrumpAIPlayer" Collapsed="true">
+    <Position X="14.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\TrumpAIPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrumpGameManager" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAACgAAAAAQAAAgAACAMAAIABBACAEAAAA=</HashCode>
+      <FileName>Include\TrumpGameManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXBaseApplication" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEMgJoABAAAGgAIEAUAWgQBEQBIAgFBBIcZYKAAAY=</HashCode>
+      <FileName>Include\DXFramework\DXBaseApplication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXGraphicsDriver" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAvAAAQFAAgBBIAIEEIBAQAgBACAIYQBABoDMhPAAEA=</HashCode>
+      <FileName>Include\DXFramework\DXGraphicsDriver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDX3DDriver" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMCSaAQGnAjA1AFgBEkQYKIFKUIIKBXcAIIJFJnCjA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIButton" Collapsed="true">
+    <Position X="30" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwAAIAAAACIAAAAEAAEAQAAACAQAdIEVBJCAAQAABA=</HashCode>
+      <FileName>Include\DXFramework\DXUIButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIStatic" Collapsed="true">
+    <Position X="32.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AT0AAAAAAAAAAAAAAIAAAAAAAAAAEEIEABACIAAAAAg=</HashCode>
+      <FileName>Include\DXFramework\DXUIStatic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIEditBox" Collapsed="true">
+    <Position X="34.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CDwABIAAAACACACaICAECUAAQAKAEFIERBICFAQAAMg=</HashCode>
+      <FileName>Include\DXFramework\DXUIEditBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIRadioButton" Collapsed="true">
+    <Position X="36.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAEACIAAAAAEAEAAAAQACAAgAAFIMBhIAAAABADA=</HashCode>
+      <FileName>Include\DXFramework\DXUIRadioButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUICheckBox" Collapsed="true">
+    <Position X="39" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAEACIAAAAAAAEAAAAQAAAAAAAFIEBhIQAAABCDA=</HashCode>
+      <FileName>Include\DXFramework\DXUICheckBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXBaseAllocator" Collapsed="true">
+    <Position X="3" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAkAgAQARAQBAAYBABUAQAAAAAgQAAQCABAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXAllocator" Collapsed="true">
+    <Position X="3" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAkAAAQARAQBAAABABQAAAAAAAAQAAACABAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXMemoryManager" Collapsed="true">
+    <Position X="63.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAYAAAAEAAhBAAAEAAAgAAFAAECAABAACAAAAAEAM=</HashCode>
+      <FileName>Include\DXFramework\DXMemoryManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXRefCounter" Collapsed="true">
+    <Position X="56.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAkAAAAAAAABAAAAAAAAAAAAABQEAA=</HashCode>
+      <FileName>Include\DXFramework\DXRefCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXFileSystem" Collapsed="true">
+    <Position X="60.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAQABAAABAQASAAABIQABAAQRABEBAQIAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXTimer" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAIAAAAAEQBQBACAIAAgZGAAIAIEABAAAgIACAQIA=</HashCode>
+      <FileName>Include\DXFramework\DXTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIManager" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAUAAAghACgFEAMAAQIQAAQjBAJGYAQAUBsAqoBLAAQ=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXBitmapFontFile" Collapsed="true">
+    <Position X="56.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIEAAAAAAAAAAAAAgBAAAAAABAAAAAAAABAAAACAg=</HashCode>
+      <FileName>Include\DXFramework\DXBitmapFontFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXTextRenderer" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCkAAAaICAgBCCAgAAYAAQNCBAAIJAAGEANzYAAAghk=</HashCode>
+      <FileName>Include\DXFramework\DXTextRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXTexture" Collapsed="true">
+    <Position X="45.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAigCAADAAAEAAQAQBABkAEAAAAAKQAAAAAI=</HashCode>
+      <FileName>Include\DXFramework\DXTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXHardwareBuffer" Collapsed="true">
+    <Position X="48" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiQAAADAQAAAAAAAAAhEAEAAEIACQAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXHardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXShader" Collapsed="true">
+    <Position X="50.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAiAIAADCAAAABEAAAABkAEAAAAACQAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXShader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXInputLayout" Collapsed="true">
+    <Position X="52.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAEDAAAAAEAABAABEAECAAAACQAAAAQA=</HashCode>
+      <FileName>Include\DXFramework\DXInputLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXTextureManager" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAABAAAAkAAAAAAAgAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXTextureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXHardwareBufferManager" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAEAAAAAAAAABAAAAEAAAAAAAgAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXHardwareBufferManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXInputLayoutManager" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAQAAgAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXInputLayoutManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXShaderManager" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAABAAAAEAAAAAAAgIAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXHeapAllocator" Collapsed="true">
+    <Position X="0.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAAAwRAQAAIIAAQUAAAAAAAAgAAQAABABAA=</HashCode>
+      <FileName>Include\DXFramework\DXHeapAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXKeyboardHandler" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACEAIAAAAAAAAAABAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXKeyboardHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIEditBoxKeyboardHandler" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgAAyAAIAAAAGAABAAAAIIBAAAAAAAQAAEAAg=</HashCode>
+      <FileName>Include\DXFramework\DXKeyboardHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXPoolAllocator" Collapsed="true">
+    <Position X="3" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAQAwRAQACIMAAAUAAAAAAAAAAAwBAhABAA=</HashCode>
+      <FileName>Include\DXFramework\DXPoolAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXStackAllocator" Collapsed="true">
+    <Position X="5.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAEAAAAwRAUQAAIAAAUAACAAAAAAAQwBAhABAA=</HashCode>
+      <FileName>Include\DXFramework\DXStackAllocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIScrollBar" Collapsed="true">
+    <Position X="41.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CSQBAQBgAAAAAAAAAAICBAgQEAQCAEIEJFQAgkAAIAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXMouseHandler" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIButtonMouseHandler" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAABAARAQAAAAAAAAAAAg=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIEditBoxMouseHandler" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAIAABAABAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUICheckBoxMouseHandler" Collapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAABAABAQAAAAAAACAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIRadioButtonMouseHandler" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAABAABAQAAgAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIScrollBarMouseHandler" Collapsed="true">
+    <Position X="9.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAEAAAAAAAABAABAUAAAAIAIAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXMouseHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXProcess" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgBCAAAEAAQSBAEAQAEAIAEAQAAAERAAAkBoAAAgA=</HashCode>
+      <FileName>Include\DXFramework\DXProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXProcessManager" Collapsed="true">
+    <Position X="55" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAIAEAAAAAAAAIBAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXProcessManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXUnknown" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAABAAAAAAAAAAAABAAACAAAAAYYBAABAA=</HashCode>
+      <FileName>Include\DXFramework\DXUnknown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXResource" Collapsed="true">
+    <Position X="49" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAiAAAADEEAAAABAEAABEAEIAAAACYAAAAAE=</HashCode>
+      <FileName>Include\DXFramework\DXResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::DXStringMapKey" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQEAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXResourceManager" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IDECAAAAAAAAEIAAAEgAAAGGACBAAkAAAAAgKgAIEAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXSprite" Collapsed="true">
+    <Position X="43.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAgAAgACCAAAAYAEAAAAiBgCEiAAAEgKAEIUAA=</HashCode>
+      <FileName>Include\DXFramework\DXSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXHelper" Collapsed="true">
+    <Position X="62" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAYAIAA=</HashCode>
+      <FileName>Include\DXFramework\DXStdafx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXTrackingPointer" Collapsed="true">
+    <Position X="58.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAAAAAAQAIAAAAAwAASAEAAAAACAAgAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXTrackingPointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXUIComboBox" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCwgEYAAAACAAAAAEAAEAQBAAAAQAFIERBJCAAAAABA=</HashCode>
+      <FileName>Include\DXFramework\DXUIComboBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::IDXUIElement" Collapsed="true">
+    <Position X="34.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IGUAZkAiAICJESAAEQAgAAAAQgGEBAIGBF0AIIQCCIQ=</HashCode>
+      <FileName>Include\DXFramework\DXUIElement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFramework::CDXDynamicallyAllocatedObject" Collapsed="true">
+    <Position X="58.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUnknown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CardVertex" Collapsed="true">
+    <Position X="56.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Include\CardMesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CardConstantBuffer" Collapsed="true">
+    <Position X="55" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Include\CardMesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InplayCard" Collapsed="true">
+    <Position X="60.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Include\stdafx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RoundInfo" Collapsed="true">
+    <Position X="62" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\stdafx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TrumpData" Collapsed="true">
+    <Position X="63.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Include\TrumpGameManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXViewport" Collapsed="true">
+    <Position X="56.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAgAAAAAAAEAAAAAACQAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXBlendDesc" Collapsed="true">
+    <Position X="63.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAgAAAAACABAAAAAAAAYAAAAAAAAQAAQAAAAAIA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXRasterizerDesc" Collapsed="true">
+    <Position X="55" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAACAAAAAAAIAAAAAAAAAAAAAiAgAAABAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXSamplerDesc" Collapsed="true">
+    <Position X="62" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAQAAAEEAAAAAAAAAAIAAAgAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXDepthStencilOpDesc" Collapsed="true">
+    <Position X="58.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAABAAAAEAAg=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXDepthStencilDesc" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAEAAAAAAAAAAAAAgABAIEAAEAAAACAAAAAEA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXBlendState" Collapsed="true">
+    <Position X="55" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXRasterizerState" Collapsed="true">
+    <Position X="56.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXSamplerState" Collapsed="true">
+    <Position X="63.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXDepthStencilState" Collapsed="true">
+    <Position X="60.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXMappedResource" Collapsed="true">
+    <Position X="56.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXPipelineState" Collapsed="true">
+    <Position X="60.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAGAIAAASAAQCAIBACAAgAAAEAAQAAAAAAAQBAAACA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXAllocatorMemoryBlockStatus" Collapsed="true">
+    <Position X="58.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAQAAAAACAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXAllocator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXAllocatorMemoryStatus" Collapsed="true">
+    <Position X="60.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBAAAAAAAAAAAAQAAAAAEBAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXAllocator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXBitmapFontGlyphData" Collapsed="true">
+    <Position X="62" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAEAAAAQAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXBitmapFontFile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXMemoryFile" Collapsed="true">
+    <Position X="58.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAQAEAAAABAA=</HashCode>
+      <FileName>Include\DXFramework\DXFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXScreenVertex" Collapsed="true">
+    <Position X="55" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXGraphicsDriver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXHardwareBufferDesc" Collapsed="true">
+    <Position X="62" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAQAAAAAIAgAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Include\DXFramework\DXHardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXInputLayoutElement" Collapsed="true">
+    <Position X="55" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAEACAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXInputLayout.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXInputLayoutDesc" Collapsed="true">
+    <Position X="63.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXInputLayout.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXStringMapKeyCompareFunc" Collapsed="true">
+    <Position X="60.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXResourceHandle" Collapsed="true">
+    <Position X="60.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAEAQAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXShaderDesc" Collapsed="true">
+    <Position X="56.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAEAAAAAAABAAAAAABAAAAAAAEAAAACAA=</HashCode>
+      <FileName>Include\DXFramework\DXShader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXSpriteVertex" Collapsed="true">
+    <Position X="58.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXSprite.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXWindowState" Collapsed="true">
+    <Position X="58.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Include\DXFramework\DXStdafx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXRect" Collapsed="true">
+    <Position X="58.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAQAAAAAAIEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Include\DXFramework\DXStdafx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXPoint" Collapsed="true">
+    <Position X="62" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXStdafx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXTexture2DData" Collapsed="true">
+    <Position X="62" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXTexture.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXTexture2DDesc" Collapsed="true">
+    <Position X="63.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAEABACAAAAAAAAAAAAAgAAAIAAAAAAEAAAAAAAACA=</HashCode>
+      <FileName>Include\DXFramework\DXTexture.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXRadioButtonGroup" Collapsed="true">
+    <Position X="63.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIRadioButton.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXFramework::DXUIElement" Collapsed="true">
+    <Position X="55" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PlayersVector" Collapsed="true">
+    <Position X="56.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\GameManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXBlendStateVector" Collapsed="true">
+    <Position X="55" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXRasterStateVector" Collapsed="true">
+    <Position X="55" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXSamplerStateVector" Collapsed="true">
+    <Position X="55" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXDepthStencilStateVector" Collapsed="true">
+    <Position X="58.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXBlendStateVectorIterator" Collapsed="true">
+    <Position X="56.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXRasterStateVectorIterator" Collapsed="true">
+    <Position X="56.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXSamplerStateVectorIterator" Collapsed="true">
+    <Position X="56.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXDepthStencilStateVectorIterator" Collapsed="true">
+    <Position X="60.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXOnFrameRenderFunc" Collapsed="true">
+    <Position X="55" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXBaseApplication.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXOnResize" Collapsed="true">
+    <Position X="56.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXBaseApplication.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXOnWindowMessage" Collapsed="true">
+    <Position X="60.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXBaseApplication.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXFileVector" Collapsed="true">
+    <Position X="62" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXFileVectorIterator" Collapsed="true">
+    <Position X="63.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXFileSystem.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXResourceKey" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXResourceMap" Collapsed="true">
+    <Position X="60.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXResourceMapIterator" Collapsed="true">
+    <Position X="63.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXResourceHandleInternal" Collapsed="true">
+    <Position X="58.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXResourceMapInsertResult" Collapsed="true">
+    <Position X="62" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXTimeExpireEvent" Collapsed="true">
+    <Position X="58.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXTimer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXUIElementVector" Collapsed="true">
+    <Position X="60.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXUIRadioButtonGroupMap" Collapsed="true">
+    <Position X="63.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXUIElementVectorIterator" Collapsed="true">
+    <Position X="62" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXUIRadioButtonGroupMapIterator" Collapsed="true">
+    <Position X="55" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXOnUIMessage" Collapsed="true">
+    <Position X="58.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXRadioButtonMap" Collapsed="true">
+    <Position X="62" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIRadioButton.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DXFramework::DXRadioButtonMapIterator" Collapsed="true">
+    <Position X="63.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIRadioButton.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="DXFramework::IDXShaderIncludeHandler" Collapsed="true">
+    <Position X="55" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXShader.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CARD_SUIT" Collapsed="true">
+    <Position X="55" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CARD_VALUE" Collapsed="true">
+    <Position X="56.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wA8AAAAAAAAAAAAAEMAQAAAQAAAAAAAAAAAAAAAAADA=</HashCode>
+      <FileName>Include\Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GAME_SCREEN" Collapsed="true">
+    <Position X="62" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\GameApplication.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GAME_STATUS" Collapsed="true">
+    <Position X="63.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAADAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\stdafx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_PRIMITIVE_TYPE" Collapsed="true">
+    <Position X="55" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAIAAAAAAAAQABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_BLEND" Collapsed="true">
+    <Position X="58.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAARAAAAAEAAAJgIAAAAAAAAAEAAAAggA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_BLEND_OP" Collapsed="true">
+    <Position X="60.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAIAAAEAAgAAAAAAAAAAE=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_WRITE_MASK" Collapsed="true">
+    <Position X="60.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAgAAAAAAAAAAAAAAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_FILL_MODE" Collapsed="true">
+    <Position X="55" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_CULL_MODE" Collapsed="true">
+    <Position X="63.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAIAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_FILTER" Collapsed="true">
+    <Position X="56.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAIAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_TEXTURE_ADDRESS" Collapsed="true">
+    <Position X="62" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAgAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_MAP" Collapsed="true">
+    <Position X="63.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_COMPARISON_FUNC" Collapsed="true">
+    <Position X="62" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAQAAAAAAAAQAAAQIAIAAAAAAgAAIAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_STENCIL_OP" Collapsed="true">
+    <Position X="60.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAAAIAAAAAAIEAAIBAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DX3DDriver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_HARDWAREBUFFER_TYPE" Collapsed="true">
+    <Position X="62" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Include\DXFramework\DXHardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_RESOURCE_TYPE" Collapsed="true">
+    <Position X="56.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Include\DXFramework\DXResource.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_GPU_RESOURCE_USAGE" Collapsed="true">
+    <Position X="60.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAoAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXResource.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_SHADER_TYPE" Collapsed="true">
+    <Position X="58.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXShader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_FORMAT" Collapsed="true">
+    <Position X="58.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAgAIAABIAAAAAgASEAABQAAIAABAAAAAIAA=</HashCode>
+      <FileName>Include\DXFramework\DXStdafx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_UIELEMENT_TYPE" Collapsed="true">
+    <Position X="56.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAAAAAAIEAAAABAAAQAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIElement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_UIELEMENT_STATE" Collapsed="true">
+    <Position X="55" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAQAAIAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIElement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_UI_MESSAGE" Collapsed="true">
+    <Position X="63.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DXFramework::DX_UISCROLLBAR_SCROLL_STATUS" Collapsed="true">
+    <Position X="58.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAAAAAgAAAQAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\DXFramework\DXUIScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

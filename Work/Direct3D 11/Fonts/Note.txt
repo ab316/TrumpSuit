@@ -1,0 +1,2 @@
+dds font files may be larger in size here than png files. But when loaded in texture memory
+they take much less space.

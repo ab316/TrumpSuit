@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Include\GameGraphics.cpp" />
+    <ClCompile Include="Source\Card.cpp" />
+    <ClCompile Include="Source\CardMesh.cpp" />
+    <ClCompile Include="Source\Console.cpp" />
+    <ClCompile Include="Source\RenderableCard.cpp" />
+    <ClCompile Include="Source\Deck.cpp" />
+    <ClCompile Include="Source\Dialog.cpp" />
+    <ClCompile Include="Source\GameApplication.cpp" />
+    <ClCompile Include="Source\Hand.cpp" />
+    <ClCompile Include="Source\HumanPlayer.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\GameManager.cpp" />
+    <ClCompile Include="Source\NormalAIPlayer.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Round.cpp" />
+    <ClCompile Include="Source\StartDialog.cpp" />
+    <ClCompile Include="Source\TrumpAIPlayer.cpp" />
+    <ClCompile Include="Source\TrumpGameManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Card.h" />
+    <ClInclude Include="Include\CardMesh.h" />
+    <ClInclude Include="Include\Console.h" />
+    <ClInclude Include="Include\DXFramework\DX3DDriver.h" />
+    <ClInclude Include="Include\DXFramework\DX3DDriverInline.h" />
+    <ClInclude Include="Include\DXFramework\DXAllocator.h" />
+    <ClInclude Include="Include\DXFramework\DXBaseApplication.h" />
+    <ClInclude Include="Include\DXFramework\DXBitmapFontFile.h" />
+    <ClInclude Include="Include\DXFramework\DXFileSystem.h" />
+    <ClInclude Include="Include\DXFramework\DXGraphicsDriver.h" />
+    <ClInclude Include="Include\DXFramework\DXHardwareBuffer.h" />
+    <ClInclude Include="Include\DXFramework\DXHardwareBufferManager.h" />
+    <ClInclude Include="Include\DXFramework\DXHeapAllocator.h" />
+    <ClInclude Include="Include\DXFramework\DXInputLayout.h" />
+    <ClInclude Include="Include\DXFramework\DXInputLayoutManager.h" />
+    <ClInclude Include="Include\DXFramework\DXKeyboardHandler.h" />
+    <ClInclude Include="Include\DXFramework\DXMemoryManager.h" />
+    <ClInclude Include="Include\DXFramework\DXMouseHandler.h" />
+    <ClInclude Include="Include\DXFramework\DXPoolAllocator.h" />
+    <ClInclude Include="Include\DXFramework\DXProcess.h" />
+    <ClInclude Include="Include\DXFramework\DXProcessManager.h" />
+    <ClInclude Include="Include\DXFramework\DXRefCounter.h" />
+    <ClInclude Include="Include\DXFramework\DXResource.h" />
+    <ClInclude Include="Include\DXFramework\DXResourceManager.h" />
+    <ClInclude Include="Include\DXFramework\DXResourceManagersInclude.h" />
+    <ClInclude Include="Include\DXFramework\DXResourcesInclude.h" />
+    <ClInclude Include="Include\DXFramework\DXShader.h" />
+    <ClInclude Include="Include\DXFramework\DXShaderManager.h" />
+    <ClInclude Include="Include\DXFramework\DXSprite.h" />
+    <ClInclude Include="Include\DXFramework\DXStackAllocator.h" />
+    <ClInclude Include="Include\DXFramework\DXStdafx.h" />
+    <ClInclude Include="Include\DXFramework\DXTextRenderer.h" />
+    <ClInclude Include="Include\DXFramework\DXTexture.h" />
+    <ClInclude Include="Include\DXFramework\DXTextureManager.h" />
+    <ClInclude Include="Include\DXFramework\DXTimer.h" />
+    <ClInclude Include="Include\DXFramework\DXTrackingPointer.h" />
+    <ClInclude Include="Include\DXFramework\DXUIButton.h" />
+    <ClInclude Include="Include\DXFramework\DXUICheckBox.h" />
+    <ClInclude Include="Include\DXFramework\DXUIComboBox.h" />
+    <ClInclude Include="Include\DXFramework\DXUIEditBox.h" />
+    <ClInclude Include="Include\DXFramework\DXUIElement.h" />
+    <ClInclude Include="Include\DXFramework\DXUIManager.h" />
+    <ClInclude Include="Include\DXFramework\DXUIRadioButton.h" />
+    <ClInclude Include="Include\DXFramework\DXUIScrollBar.h" />
+    <ClInclude Include="Include\DXFramework\DXUIStatic.h" />
+    <ClInclude Include="Include\DXFramework\DXUnknown.h" />
+    <ClInclude Include="Include\RenderableCard.h" />
+    <ClInclude Include="Include\CSerializable.h" />
+    <ClInclude Include="Include\Deck.h" />
+    <ClInclude Include="Include\Dialog.h" />
+    <ClInclude Include="Include\GameApplication.h" />
+    <ClInclude Include="Include\GameGraphics.h" />
+    <ClInclude Include="Include\Hand.h" />
+    <ClInclude Include="Include\GameManager.h" />
+    <ClInclude Include="Include\HumanPlayer.h" />
+    <ClInclude Include="Include\NormalAIPlayer.h" />
+    <ClInclude Include="Include\Player.h" />
+    <ClInclude Include="Include\Round.h" />
+    <ClInclude Include="Include\StartDialog.h" />
+    <ClInclude Include="Include\stdafx.h" />
+    <ClInclude Include="Include\TrumpAIPlayer.h" />
+    <ClInclude Include="Include\TrumpGameManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\CardPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Shaders\CardVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Shaders\GUI.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.1</ShaderModel>
+    </FxCompile>
+    <Text Include="Shaders\ShaderCommon.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.1</ShaderModel>
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{250EA266-0AE3-4124-863E-001DE9EB9C98}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TrumpSuit</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Include\DXFramework;$(ProjectDir)\Include</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Lib\Debug</AdditionalLibraryDirectories>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Include\DXFramework;$(ProjectDir)\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
